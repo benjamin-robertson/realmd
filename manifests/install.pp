@@ -5,7 +5,7 @@
 class realmd::install {
 
   case $facts['os']['name'] {
-    Ubuntu: {
+    'Ubuntu': {
       include apt
 
       package { $::realmd::realmd_package_name:
