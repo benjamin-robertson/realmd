@@ -11,7 +11,7 @@ realmd::required_packages:
     ensure: present
   libpam-sss:
     ensure: present
-  adcli:
-    ensure: present
+  #adcli:
+  #  ensure: present
   samba-common-bin:
     ensure: present
