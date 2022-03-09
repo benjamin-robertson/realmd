@@ -41,6 +41,7 @@ Install the dependencies like so...
 The test suite will run [Puppet Lint](http://puppet-lint.com/) and
 [Puppet Syntax](https://github.com/gds-operations/puppet-syntax) to
 check various syntax and style things. You can run these locally with:
+
     bundle exec rake lint
     bundle exec rake syntax
 
